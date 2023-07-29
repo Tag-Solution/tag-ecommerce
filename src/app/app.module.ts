@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductPipe } from './pipes/product.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { AdminPageComponent } from './components/admin-page/admin-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     ProductComponent,
     AdminComponent,
     NavbarComponent,
-    ProductPipe
+    ProductPipe,
+    AdminPageComponent
   ],
   imports: [
     BrowserModule,
