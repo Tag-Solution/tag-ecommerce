@@ -1,30 +1,28 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductComponent } from './pages/product/product.component';
-import { AdminComponent } from './pages/admin/admin.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { ProductPipe } from './pipes/product.pipe';
-import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';
-import { AdminPageComponent } from './components/admin-page/admin-page.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AuthModuleModule } from './components/auth/auth-module.module';
+import { PageModuleModule } from './pages/page-module.module';
+import { NopageFoundComponent } from './components/nopage-found/nopage-found.component';
+import { ModuleSharedModule } from './shared/module-shared/module-shared.module';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductComponent,
-    AdminComponent,
-    NavbarComponent,
-    ProductPipe,
-    AdminPageComponent
+    NopageFoundComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
-    FormsModule
+    AuthModuleModule,
+    PageModuleModule,
+    ModuleSharedModule
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
