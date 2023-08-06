@@ -5,6 +5,7 @@ import { SideBarComponent } from './side-bar/side-bar.component';
 import { HeaderComponent } from './header/header.component';
 import { ContentWrapperComponent } from './content-wrapper/content-wrapper.component';
 import { FotterAdminComponent } from './fotter-admin/fotter-admin.component';
+import { UsersListComponent } from './users-list/users-list.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { FotterAdminComponent } from './fotter-admin/fotter-admin.component';
     HeaderComponent,
     SideBarComponent,
     ContentWrapperComponent,
-    FotterAdminComponent
+    FotterAdminComponent,
+    UsersListComponent
   ],
   imports: [
     CommonModule,
