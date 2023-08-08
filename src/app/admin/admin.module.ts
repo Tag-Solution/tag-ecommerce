@@ -7,6 +7,9 @@ import { FooterComponent } from './pages/footer/footer.component';
 import { SideBarComponent } from './pages/side-bar/side-bar.component';
 import { ContentWrapperComponent } from './pages/content-wrapper/content-wrapper.component';
 import { UsersComponent } from './pages/users/users.component';
+import { ContentUserComponent } from './pages/users/content-user/content-user.component';
+import { CrearUserComponent } from './pages/users/crear-user/crear-user.component';
+
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { UsersComponent } from './pages/users/users.component';
     FooterComponent,
     SideBarComponent,
     ContentWrapperComponent,
-    UsersComponent
+    UsersComponent,
+    ContentUserComponent,
+    CrearUserComponent
+
   ],
   imports: [
     CommonModule,
