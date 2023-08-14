@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { NavBarComponent } from './pages/nav-bar/nav-bar.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 /** aca van las rutas del modulo home*/
 const routes: Routes = [
