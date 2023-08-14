@@ -1,9 +1,6 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { CommonModule } from '@angular/common';
-import { HomeModule } from './websites/home.module';
-
-
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {CommonModule} from '@angular/common';
 
 
 const routes: Routes = [
@@ -12,26 +9,16 @@ const routes: Routes = [
     loadChildren:() => import('./admin/admin.module').then(m => m.AdminModule)
   },
   {
-    path:'home',loadChildren:() => import( './websites/home.module').then(m => m.HomeModule)
+    path: '',
+    loadChildren: () => import( './_user-interface/user-interface.module').then(m => m.UserInterfaceModule)
   },
-  {
-    path: '**',
-    redirectTo: 'admin'
-  }
-
 ];
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule.forRoot(routes)
-
-
-
-
   ],
-  exports: [RouterModule
-
-  ]
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
