@@ -13,19 +13,22 @@ import { CrearUserComponent } from './pages/users/crear-user/crear-user.componen
 
 
 @NgModule({
-  declarations: [
-    HeaderComponent,
-    FooterComponent,
-    SideBarComponent,
-    ContentWrapperComponent,
-    UsersComponent,
-    ContentUserComponent,
-    CrearUserComponent
+    declarations: [
+        HeaderComponent,
+        FooterComponent,
+        SideBarComponent,
+        ContentWrapperComponent,
+        UsersComponent,
+        ContentUserComponent,
+        CrearUserComponent
 
-  ],
-  imports: [
-    CommonModule,
-    AdminRoutingModule
-  ]
+    ],
+    exports: [
+        FooterComponent
+    ],
+    imports: [
+        CommonModule,
+        AdminRoutingModule
+    ]
 })
 export class AdminModule { }
