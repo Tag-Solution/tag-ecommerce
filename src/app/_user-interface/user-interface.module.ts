@@ -21,6 +21,7 @@ import {TopbarComponent} from './components/topbar/topbar.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {SearchComponent} from './components/search/search.component';
 import {LayoutComponent} from "./layout/layout.component";
+import { CartBarComponent } from './components/cart-bar/cart-bar.component';
 
 
 @NgModule({
@@ -46,6 +47,7 @@ import {LayoutComponent} from "./layout/layout.component";
       CategoriesComponent,
       TopbarComponent,
       SearchComponent,
+      CartBarComponent,
   ],
     exports: [
         LayoutComponent,
@@ -68,7 +70,8 @@ import {LayoutComponent} from "./layout/layout.component";
         HeaderComponent,
         CategoriesComponent,
         TopbarComponent,
-        SearchComponent
+        SearchComponent,
+        CartBarComponent,
     ],
   imports: [
       CommonModule,
