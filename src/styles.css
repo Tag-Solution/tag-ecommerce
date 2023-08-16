@@ -3429,7 +3429,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .home1-slider1-bg {
-  background: url(../img/slider/home1-slider1-bg.webp);
+  background: url(./assets/website-resources/img/slider/home1-slider1-bg.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -3631,7 +3631,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .slider__section--bg2 {
-  background: url(../img/slider/home2-slider-shape-bg.webp);
+  background: url(./assets/website-resources/img/slider/home2-slider-shape-bg.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -3672,7 +3672,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .home2-slider1-bg {
-  background: url(../img/slider/home2-slider1-bg.webp);
+  background: url(./assets/website-resources/img/slider/home2-slider1-bg.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -3797,7 +3797,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .slider__section--bg3 {
-  background: url(../img/slider/home3-slider-section-bg.webp);
+  background: url(./assets/website-resources/img/slider/home3-slider-section-bg.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -4005,7 +4005,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .slider4__items--bg1 {
-  background: url(../img/slider/home4-slider1-bg.webp);
+  background: url(./assets/website-resources/img/slider/home4-slider1-bg.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -4425,7 +4425,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 .sidebar__category {
   padding: 1rem;
-  background: url(../img/other/category-sidebar-bg.webp);
+  background: url(./assets/website-resources/img/other/category-sidebar-bg.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -5311,7 +5311,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .small__product--section__bg {
-  background: url(../img/banner/small-product-sectio-bg.webp);
+  background: url(./assets/website-resources/img/banner/small-product-sectio-bg.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -5319,7 +5319,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .deal__section--bg {
-  background: url(../img/banner/deal-section-bg.webp);
+  background: url(./assets/website-resources/img/banner/deal-section-bg.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -8181,7 +8181,7 @@ input.quickview__value--number {
 }
 
 .brand__section--style3 {
-  background: url(../img/other/brand-section-bg3.webp);
+  background: url(./assets/website-resources/img/other/brand-section-bg3.webp);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
