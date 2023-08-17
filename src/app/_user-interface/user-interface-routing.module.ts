@@ -13,28 +13,45 @@ import { FaqComponent } from './pages/faq/faq.component';
 import { ErrorPageComponent } from './pages/error-page/error-page.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 
-/** aca van las rutas del modulo home*/
+import { WebsiteRoutes } from './resources/constants/WebsiteRoutes';
+
 const routes: Routes = [
   {
     path: '',
     children: [
-      { path: '', component: HomepageComponent },
+      { path: WebsiteRoutes.PAGE_HOME, component: HomepageComponent },
       // Authentication
-      { path: 'register', component: RegisterComponent },
-      { path: 'login', component: LoginComponent },
+      {
+        path: WebsiteRoutes.PAGE_REGISTER,
+        component: RegisterComponent,
+      },
+      { path: WebsiteRoutes.PAGE_LOGIN, component: LoginComponent },
       // Products
-      { path: 'shop', component: ShopComponent },
-      { path: 'product-details', component: ProductDetailsComponent },
+      { path: WebsiteRoutes.PAGE_SHOP, component: ShopComponent },
+      {
+        path: WebsiteRoutes.PAGE_PRODUCT_DETAILS,
+        component: ProductDetailsComponent,
+      },
       // Cart
-      { path: 'cart', component: CartComponent },
-      { path: 'checkout', component: CheckoutComponent },
+      { path: WebsiteRoutes.PAGE_CART, component: CartComponent },
+      {
+        path: WebsiteRoutes.PAGE_CHECKOUT,
+        component: CheckoutComponent,
+      },
       // Pages
-      { path: 'wishlist', component: WishlistComponent },
-      { path: 'about-us', component: AboutUsComponent },
-      { path: 'contact', component: ContactComponent },
-      { path: 'faq', component: FaqComponent },
+      {
+        path: WebsiteRoutes.PAGE_WISHLIST,
+        component: WishlistComponent,
+      },
+      { path: WebsiteRoutes.PAGE_ABOUT_US, component: AboutUsComponent },
+      { path: WebsiteRoutes.PAGE_CONTACT, component: ContactComponent },
+      { path: WebsiteRoutes.PAGE_FAQ, component: FaqComponent },
       // Error
-      { path: '**', pathMatch: 'full', component: ErrorPageComponent },
+      {
+        path: WebsiteRoutes.PAGE_ERROR,
+        pathMatch: 'full',
+        component: ErrorPageComponent,
+      },
     ],
   },
 ];
