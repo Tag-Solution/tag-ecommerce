@@ -21,6 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SearchComponent } from './components/search/search.component';
 import { LayoutComponent } from './layout/layout.component';
 import { MinicartComponent } from './components/minicart/minicart.component';
+import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { MinicartComponent } from './components/minicart/minicart.component';
     TopbarComponent,
     SearchComponent,
     MinicartComponent,
+    PrivacyPolicyComponent,
   ],
   exports: [
     LayoutComponent,
